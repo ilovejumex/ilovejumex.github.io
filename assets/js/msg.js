@@ -1,17 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
     const messages = [
-        "The Interstellar devs tried to sell my cousin fent",
-        "What if Cool Math Games was called Cool Meth Games",
-        "Every time you refresh = one Latvian orphanage bombed",
-        "unforgettable.dk/42.zip <-- Securly bypass here",
-        "Steven loves femboys",
-        "Ok that's enough go outside",
-        "NEVER GOON",
-        "5,000 visits and I drop my Adobe Enterprise login",
-        "I'm Tim Cheese, and I killed John Pork. And this is my story. That day. The day I snuck up behind John. You all think you know the story. You don't",
-        "The Ultraviolet devs tried to sell my cousin vitamin gummies",
-        "I'm in the thick of it everybody knows",
-        "Look for the Gummibar album in stores on November 13th"
+        "the Interstellar devs tried to sell my cousin fent",
+        "what if Cool Math Games was called Cool Meth Games",
+        "FSKY admins tried to sell my cousin viagra",
+        "unforgettable.dk/42.zip <-- rivals aimbot+scriptexecutor+autoshoot+wallhack for PC!",
+        "steven loves femboys (5 months later he still does)",
+        "sandwich makers PLEASE email nyx@ip-logger.com I am DESPERATE",
+        "9,000 visits and I drop my Adobe Enterprise login",
+        "",
+        "ultraviolet devs tried to sell my cousin vitamin gummies",
+        "jajajajaja"
     ];
 
     const messageElement = document.getElementById("random-message");
@@ -31,5 +29,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     updateMessage();
-    setInterval(updateMessage, 6000);
+    setInterval(updateMessage, 4000);
 });
