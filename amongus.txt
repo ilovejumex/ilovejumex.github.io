@@ -32,10 +32,12 @@
                                                                    :::::::::::      :::::           
                                                                           :::::::::::::             
 
-Because of how Forkphorus works you and your friends need to be on the same link to be able to join each other's games. Downloading the file and trying to play offline will also not work. There's nothing I can do about this so just make sure 🥶
+Because of how Forkphorus works, you and your friends need to be on the same link to be able to join each other's games. Downloading the file and trying to play offline will not work. There's nothing I can do about this so just make sure 🥶
 
-Link: add /assets/games/amongus/privateserver to the link you're on (like ca.resources.totalh.net/assets/games/amongus/privateserver)
+Link: add /assets/games/amongus/privateserver to the link you're on (like milkyway.fsky.io/assets/games/amongus/privateserver)
 
-Add &username=(YOUR NAME GOES HERE) add the end of the link once you get redirected and remove the parentheses to set your username
+Add &username=(YOUR NAME GOES HERE) at the end of the link once you get redirected and remove the parentheses to set your username
+
+Also this is unstable on Chr*mebooks 😭
 
 bit.ly/milkywaygg
