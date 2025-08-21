@@ -2,70 +2,70 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>MilkyWay | Webamp</title>
-		<link id="favicon" rel="icon" href="/assets/img/milkyway.png" type="image/x-icon">
-        <script src="/assets/js/cloak.js"></script>
-		<script src="/assets/js/escape.js"></script>
-		<style>body{background-color:#000000}</style>
+		<title>
+			MilkyWay | Webamp
+		</title>
+		<link id="favicon" rel="icon" href="https://milkyway.fsky.io/assets/img/milkyway.png" type="image/x-icon">
+		<script src="/assets/js/cloak.js">
+		</script>
+		<script src="/assets/js/escape.js">
+		</script>
+		<style>
+			body{background-color:#000000}
+		</style>
 	</head>
-
 	<body>
-	<div id="app" style="height: 100vh"></div>
-	<script src="webamp.bundle.min.js"></script>
-	<script src="butterchurn.min.js"></script>
-	<script src="butterchurnPresets.min.js"></script>
+		<div id="app" style="height: 100vh">
+		</div>
+		<script src="https://milkyway.fsky.io/music/webamp.bundle.min.js">
+		</script>
+		<script src="https://milkyway.fsky.io/music/butterchurn.min.js">
+		</script>
+		<script src="https://milkyway.fsky.io/music/butterchurnPresets.min.js">
+		</script>
 	<script>
-		const Webamp = window.Webamp;
-		const webamp = new Webamp({
-			__butterchurnOptions: {
-				importButterchurn: () => Promise.resolve(window.butterchurn),
-				getPresets: () => {
-					const presets = window.butterchurnPresets.getPresets();
-					return Object.keys(presets).map((name) => {
-						return {
-							name,
-							butterchurnPresetObject: presets[name],
-						};
-					});
-				},
-				butterchurnOpen: true,
+	const Webamp = window.Webamp;
+	const webamp = new Webamp({
+		__butterchurnOptions: {
+			importButterchurn: () => Promise.resolve(window.butterchurn),
+			getPresets: () => {
+				const presets = window.butterchurnPresets.getPresets();
+				return Object.keys(presets).map((name) => {
+					return {
+						name,
+						butterchurnPresetObject: presets[name],
+					};
+				});
 			},
-			windowLayout: {
-				main: {
-					position: {
-						top: 0,
-						left: 0
-					}
-				},
-				equalizer: {
-					position: {
-						top: 116,
-						left: 0
-					}
-				},
-				playlist: {
-					position: {
-						top: 232,
-						left: 0
-					},
-					size: {
-						extraWidth: 0,
-						extraHeight: 4
-					},
-				},
-				milkdrop: {
-					position: {
-						top: 0,
-						left: 275
-					},
-					size: {
-						extraHeight: 12,
-						extraWidth: 7
-					},
-				},
+			butterchurnOpen: true,
+		},
+		initialTracks: [
+			{
+				url: "https://file.garden/Z-2H6tWhPAglb48I/21%20Donda%2C%20Kanye%20West%2C%20Ye%20-%20FIRST%20TIME%20IN%20A%20LONG%20TIME.flac",
+				defaultName: "Kanye West - FIRST TIME IN A LONG TIME",
 			},
-		});
-		webamp.renderWhenReady(document.getElementById("app"));
-	</script>
+			{
+				url: "https://file.garden/Z-2H6tWhPAglb48I/17%20Madvillain%2C%20Madlib%2C%20MF%20DOOM%20-%20Fancy%20Clown%20(feat.%20Viktor%20Vaughn).flac",
+				defaultName: "Madvillain, Viktor Vaughn - Fancy Clown",
+			},
+		],
+		windowLayout: {
+			main: { position: { top: 0, left: 0 } },
+			equalizer: { position: { top: 116, left: 0 } },
+			playlist: {
+				position: { top: 232, left: 0 },
+				size: { extraWidth: 0, extraHeight: 4 },
+			},
+			milkdrop: {
+				position: { top: 0, left: 275 },
+				size: { extraHeight: 12, extraWidth: 7 },
+			},
+		},
+	});
+
+	webamp.renderWhenReady(document.getElementById("app"));
+</script>
+
 	</body>
+
 </html>
