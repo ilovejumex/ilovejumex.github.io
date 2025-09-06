@@ -1,6 +1,6 @@
 ROADMAP (as of 6th of September, 2025)
 
-Rebrand first then:
+Rebrand first (expect to complete this by like the 16th or so) then:
  - Actually add preview images for the games instead of having a shit ton of buttons
  - Revamp the site's entire design basically
  - Make the cloak function simpler
