@@ -6,5 +6,7 @@ Rebrand first then:
  - Make the cloak function simpler
  - Reorganize a lot at the end (for example all the games should just be on /g/ instead of /assets/games/ ??? what was I doing half a year ago)
 
+Merge every one of the like 36 other repos this site has as lazy dependencies into one making this like a 40GB repo, at that point I come to the realization "can I even host this shit on GitHub anymore" which takes us to
+Host it on my own machine (Raspberry Pi)
 Get better proxies instead of broken Ultraviolet forks
-Buy 2 or 3 domains for the site
+Buy 2 or 3 domains for the site (https://iili.io/KnZZkUx.png)
