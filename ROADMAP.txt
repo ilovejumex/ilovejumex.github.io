@@ -1,0 +1,10 @@
+ROADMAP (as of 6th of September, 2025)
+
+Rebrand first then:
+ - Actually add preview images for the games instead of having a shit ton of buttons
+ - Revamp the site's entire design basically
+ - Make the cloak function simpler
+ - Reorganize a lot at the end (for example all the games should just be on /g/ instead of /assets/games/ ??? what was I doing half a year ago)
+
+Get better proxies instead of broken Ultraviolet forks
+Buy 2 or 3 domains for the site
