@@ -1,69 +1,60 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  color: white;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #36024a, #4a003d, #2a0037, #1b002e);
-  background-attachment: fixed;
-  background-size: 400% 400%;
-  background-repeat: no-repeat;
+body {
+flex-direction: column;
+min-height: 100vh;
+text-align: center;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-  display: inline-block;
-  padding: 15px 25px;
-  margin: 10px;
-  border: 2px solid transparent;
-  border-radius: 5px;
-  background: linear-gradient(135deg, #36024a, #4a003d, #2a0037, #1b002e);
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease-in-out, box-shadow 0.4s ease, filter 0.4s ease;
+
+.button-container a {
+display: inline-block;
+margin: 10px;
+padding: 14px 28px;
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+color: white;
+border: 2px solid white;
+border-radius: 8px;
+background: rgba(255,255,255,0.05);
+transition: all 0.3s ease;
+backdrop-filter: none;
 }
 
-a:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px black;
-  filter: drop-shadow(0 0 8px black);
+
+.button-container a:hover {
+background: rgba(255, 255, 255, 0.15);
+border-color: rgba(255, 255, 255, 0.4);
+backdrop-filter: blur(10px);
+transform: translateY(-2px);
+box-shadow: 0 6px 15px rgba(255,255,255,0.15);
 }
+
 
 h1 {
-  text-shadow: 0 0 10px black, 0 0 15px black, 0 0 20px black;
+text-shadow: 0 0 12px black, 0 0 18px black, 0 0 24px black;
+margin-bottom: 0.5em;
 }
 
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+p {
+margin-top: 0.3em;
 }
 
-.center-text {
-  text-align: center;
+
+img.center {
+display: block;
+margin: 50px auto 30px auto;
+max-width: 200px;
 }
 
-h1.center-text {
-  margin-bottom: 0.3em;
-}
-
-p.center-text {
-  margin-top: 0.3em;
-}
 
 footer {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  padding: 16px;
-  margin-top: auto;
+margin-top: auto;
+text-align: center;
+padding: 20px 0;
+}
+
+
+footer img {
+margin: 0 5px;
 }
