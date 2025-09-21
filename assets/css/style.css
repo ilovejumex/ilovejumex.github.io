@@ -1,60 +1,58 @@
-body {
-flex-direction: column;
-min-height: 100vh;
-text-align: center;
-}
+ body {
+      margin: 0;
+      font-family: 'DM Sans', sans-serif;
+      background-color: #000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+    }
 
+    .button-container a {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      font-weight: 500;
+      font-size: 16px;
+      text-decoration: none;
+      color: white;
+      border: 2px solid white;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      transition: all 0.3s ease;
+      backdrop-filter: none;
+    }
 
-.button-container a {
-display: inline-block;
-margin: 10px;
-padding: 14px 28px;
-font-weight: 500;
-font-size: 16px;
-text-decoration: none;
-color: white;
-border: 2px solid white;
-border-radius: 8px;
-background: rgba(255,255,255,0.05);
-transition: all 0.3s ease;
-backdrop-filter: none;
-}
+    .button-container a:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(10px);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(255,255,255,0.15);
+    }
 
+    h1 {
+      text-shadow: 0 0 12px black, 0 0 18px black, 0 0 24px black;
+      margin-bottom: 0.5em;
+    }
 
-.button-container a:hover {
-background: rgba(255, 255, 255, 0.15);
-border-color: rgba(255, 255, 255, 0.4);
-backdrop-filter: blur(10px);
-transform: translateY(-2px);
-box-shadow: 0 6px 15px rgba(255,255,255,0.15);
-}
+    p {
+      margin-top: 0.3em;
+    }
 
+    img.center {
+      display: block;
+      margin: 50px auto 30px auto;
+      max-width: 200px;
+    }
 
-h1 {
-text-shadow: 0 0 12px black, 0 0 18px black, 0 0 24px black;
-margin-bottom: 0.5em;
-}
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 20px 0;
+    }
 
-
-p {
-margin-top: 0.3em;
-}
-
-
-img.center {
-display: block;
-margin: 50px auto 30px auto;
-max-width: 200px;
-}
-
-
-footer {
-margin-top: auto;
-text-align: center;
-padding: 20px 0;
-}
-
-
-footer img {
-margin: 0 5px;
-}
+    footer img {
+      margin: 0 5px;
+    }
