@@ -33,12 +33,12 @@ a {
 
 a:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px black;
-  filter: drop-shadow(0 0 10px black);
+  box-shadow: 0 8px 16px black;
+  filter: drop-shadow(0 0 8px black);
 }
 
 h1 {
-  text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
+  text-shadow: 0 0 10px black, 0 0 15px black, 0 0 20px black;
 }
 
 
