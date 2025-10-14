@@ -10,3 +10,5 @@ Merge every one of the like 36 other repos this site has as lazy dependencies in
 Host it on my own machine (Raspberry Pi)
 Get better proxies instead of broken Ultraviolet forks
 Buy 2 or 3 domains for the site (https://iili.io/KnZZkUx.png)
+
+LOL THIS IS DEAD GO TO GITHUB.COM/LIGHT1080p
