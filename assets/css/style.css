@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'DM Sans', sans-serif;
-    background-color: #000;
+    background: linear-gradient(135deg, #ff00ff, #000000);
     color: white;
     display: flex;
     flex-direction: column;
@@ -17,19 +17,16 @@ a {
     font-size: 16px;
     text-decoration: none;
     color: white;
-    border: 2px solid white;
-    border-radius: 8px;
-    background: rgba(255,255,255,0.05);
+    background: #000;
+    border: none;
+    border-radius: 0;
     transition: all 0.3s ease;
-    backdrop-filter: none;
 }
 
 a:hover {
-    background: rgba(255, 255, 255, 0.15);
-    border-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
+    background: #111;
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(255,255,255,0.15);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
 
 h1 {
