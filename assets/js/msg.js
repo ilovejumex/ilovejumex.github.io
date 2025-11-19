@@ -1,15 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     const messages = [
         "the Interstellar devs tried to sell my cousin fent",
-        "what if Cool Math Games was called Cool Meth Games",
-        "FSKY admins tried to sell my cousin viagra",
+        "do your work retard",
         "unforgettable.dk/42.zip <-- rivals aimbot+scriptexecutor+autoshoot+wallhack for PC!",
         "steven loves femboys (5 months later he still does)",
-        "sandwich makers PLEASE email nyx@ip-logger.com I am DESPERATE",
-        "9,000 visits and I drop my Adobe Enterprise login",
-        "",
-        "ultraviolet devs tried to sell my cousin vitamin gummies",
-        "jajajajaja"
+        "nyx@ip-logger.com manden porno",
+        "why is jio always so australian bro",
+        "ultraviolet devs tried to sell my cousin vitamin gummies"
     ];
 
     const messageElement = document.getElementById("random-message");
@@ -29,5 +26,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     updateMessage();
-    setInterval(updateMessage, 4000);
+    setInterval(updateMessage, 2500);
 });
